@@ -18,7 +18,14 @@ export class LoginformComponent implements OnInit {
     var username = e.target.elements[0].value;
     var password = e.target.elements[1].value;
     if(username == 'raj'&& password =='raj123'){
-    this.router.navigate(['dashboard']);
-  }
-  }
+    alert ("Login successfully");
+    if("login successfully"){
+    }
 }
+else
+{
+    alert("Login failed");
+    }
+  }
+  }
+
