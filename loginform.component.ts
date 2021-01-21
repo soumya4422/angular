@@ -19,8 +19,6 @@ export class LoginformComponent implements OnInit {
     var password = e.target.elements[1].value;
     if(username == 'raj'&& password =='raj123'){
     alert ("Login successfully");
-    if("login successfully"){
-    }
 }
 else
 {
